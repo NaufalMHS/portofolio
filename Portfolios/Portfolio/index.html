@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naufal Faishal Falah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NGSYYHHBW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-6NGSYYHHBW');
+    </script>
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <button class="lightbox-prev" id="lightboxPrev">&#8249;</button>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <button class="lightbox-next" id="lightboxNext">&#8250;</button>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="image/152019010_NaufalFaishalFalah_resize.jpg" alt="avatar" width="80">
+                </figure>
+        
+                <div class="info-content">
+                    <h1 class="name" title="Naufal Faishal Falah">Naufal Faishal Falah</h1>
+                    <p class="title">Web Developer</p>
+                    <div class="download-links">
+                        <a href="https://drive.google.com/file/d/1SlHi7NAm28HGfArmeyJ35QpyMgjGVlk2/view?usp=sharing" download class="download-link">Download CV</a>
+                        
+                    </div>
+                </div>
+        
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+        
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+        
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+        
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:naupalf04@gmail.com" class="contact-link">naupalf04@gmail.com</a>
+                        </div>
+                    </li>
+        
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+        
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+12133522795" class="contact-link">081292000136</a>
+                        </div>
+                    </li>
+        
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+        
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="1982-06-23">May 04, 2001</time>
+                        </div>
+                    </li>
+        
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+        
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Bandung</address>
+                        </div>
+                    </li>
+                </ul>
+        
+                <div class="separator"></div>
+        
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/naufal-faishal-falah-314485235/"target="_blank" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" target="_blank" class="social-link"><ion-icon name="globe-outline"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/naupalff/" target="_blank" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Project</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <div class="about-greeting">
+                        <span class="greeting-wave">👋</span>
+                        <h3 class="greeting-text">Hi there! I'm <span class="highlight-name">Naufal Faishal Falah</span></h3>
+                    </div>
+                    <p>I am a highly satisfactory graduate of the Informatics Study Program at Institut Teknologi Nasional Bandung. Highly motivated to develop professionally, focused on completing work quickly and consistently. I am also used to and enjoy challenges in my work.</p>
+                    <p>As a passionate web developer, I thrive on turning complex problems into elegant, user-friendly solutions. I believe that a great website is not just about code, but about creating meaningful experiences that connect people and ideas. With a keen eye for detail and a love for continuous learning, I am always exploring new technologies and trends to craft innovative digital solutions that make an impact.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm Doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="image/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="image/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="image/Proyek_Baru-removebg-preview.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Deep learning Developer</h4>
+                                <p class="service-item-text">Building a deep learning model for image classification and object detection.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="image/IOT_LOGO_FIX-removebg-preview (2).png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">IoT Developer</h4>
+                                <p class="service-item-text">Developing smart IoT systems for seamless device connectivity and automation.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Lewis</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica Miller</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Working with Richard has been an absolute pleasure. I was impressed with his attention to detail, his web design skills and his professional approach to our timelines and processes.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/fRFWhX9F/avatar-3.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily Evans</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I couldn't be happier with the website that Richard created for us. His attention to detail and creativity is unmatched. Our clients frequently compliment the design, and it has significantly improved our brand image.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zXv1Xv81/avatar-4.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry Williams</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I was overwhelmed with the thought of redesigning my online store, but Richard made the process seamless. The site is not only visually appealing but also optimized for conversions. I've seen a 50% increase in traffic since the launch!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section> -->
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/YqfKyG66/logo-1-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/fWm6JtgG/logo-2-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/Bb07xpwd/logo-3-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/hv1yMmkh/logo-4-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/ry1P86Dc/logo-5-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/SsWDN8NV/logo-6-color.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section> -->
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="school-outline"></ion-icon></div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item edu-card">
+                            <div class="edu-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Institut Teknologi Nasional Bandung</h4>
+                                    <span class="edu-degree"><ion-icon name="ribbon-outline"></ion-icon> Informatics</span>
+                                </div>
+                                <div class="edu-meta">
+                                    <span class="edu-date"><ion-icon name="calendar-outline"></ion-icon> 2019 – 2024</span>
+                                    <span class="edu-gpa"><ion-icon name="trophy-outline"></ion-icon> GPA: 3.20</span>
+                                    
+                                </div>
+                            </div>
+                            <p class="timeline-text">Learnt a wide range of topics essential to understanding both the theory and practical aspects of computing — programming fundamentals, computer architecture, operating systems, databases, software engineering, problem solving, collaboration and communication soft skills.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">Data Structures</span>
+                                <span class="exp-tag">Algorithms</span>
+                                <span class="exp-tag">Software Engineering</span>
+                                <span class="exp-tag">Database Systems</span>
+                                <span class="exp-tag">Operating Systems</span>
+                            </div>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item exp-card">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Technical Support, Developer &amp; Operations Specialist</h4>
+                                    <span class="exp-company"><ion-icon name="business-outline"></ion-icon> PT Neuronworks Indonesia</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-date"><ion-icon name="calendar-outline"></ion-icon> Jun 2025 – Present</span>
+                                    <span class="exp-badge current">● Current</span>
+                                </div>
+                            </div>
+                            <p class="timeline-text">Dedicated to ensuring core systems run efficiently and reliably. Responsibilities span developing and maintaining web applications, managing API integrations, and optimizing system workflows. Drive technical support efforts—including troubleshooting and resolving production tickets—while managing critical operational tasks such as system configurations, deployments, and cross-platform integrations.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">Web Development</span>
+                                <span class="exp-tag">API Integration</span>
+                                <span class="exp-tag">DevOps</span>
+                                <span class="exp-tag">Technical Support</span>
+                                <span class="exp-tag">System Configuration</span>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item exp-card">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Website RW 23 – Student Independent Assignment</h4>
+                                    <span class="exp-company"><ion-icon name="school-outline"></ion-icon> Web Programming Course</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-date"><ion-icon name="calendar-outline"></ion-icon> 2023</span>
+                                </div>
+                            </div>
+                            <p class="timeline-text">Developed the RW 23 Website using PHP and Laravel. Created a blog application and CMS (Content Management System) for content management, featuring a user-friendly interface. This project enhanced full-stack development skills.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">PHP</span>
+                                <span class="exp-tag">Laravel</span>
+                                <span class="exp-tag">CMS</span>
+                                <span class="exp-tag">Full-Stack</span>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item exp-card">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Internet of Things Lab Assistant</h4>
+                                    <span class="exp-company"><ion-icon name="business-outline"></ion-icon> Institut Teknologi Nasional</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-date"><ion-icon name="calendar-outline"></ion-icon> Sep 2022 – Jan 2023</span>
+                                </div>
+                            </div>
+                            <p class="timeline-text">Assisted the lab head in conducting practical sessions, developing practical modules, and teaching Arduino programming, sensors, website development, APIs, and mobile apps. Additionally assessed student assignments.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">Arduino</span>
+                                <span class="exp-tag">IoT</span>
+                                <span class="exp-tag">APIs</span>
+                                <span class="exp-tag">Mobile Apps</span>
+                                <span class="exp-tag">Teaching</span>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item exp-card">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Doctor Appointment Application – Independent Assignment</h4>
+                                    <span class="exp-company"><ion-icon name="school-outline"></ion-icon> Web Programming Course</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-date"><ion-icon name="calendar-outline"></ion-icon> 2022</span>
+                                </div>
+                            </div>
+                            <p class="timeline-text">Developed a Doctor Appointment Application using PHP and Laravel, integrating a Payment Gateway with the Midtrans API to facilitate seamless payments.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">PHP</span>
+                                <span class="exp-tag">Laravel</span>
+                                <span class="exp-tag">Midtrans API</span>
+                                <span class="exp-tag">Payment Gateway</span>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item exp-card">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="h4 timeline-item-title">Web Developer – Professional Internship</h4>
+                                    <span class="exp-company"><ion-icon name="business-outline"></ion-icon> PT Len Railway Systems</span>
+                                </div>
+                                <div class="exp-meta">
+                                    <span class="exp-date"><ion-icon name="calendar-outline"></ion-icon> Jul – Oct 2022</span>
+                                </div>
+                            </div>
+                            <p class="timeline-text">Responsible for developing a company document management system website. Tasks included data collection, database management using MySQL, and programming with the CodeIgniter framework, as well as maintaining the website.</p>
+                            <div class="experience-tags">
+                                <span class="exp-tag">CodeIgniter</span>
+                                <span class="exp-tag">MySQL</span>
+                                <span class="exp-tag">PHP</span>
+                                <span class="exp-tag">Web Development</span>
+                            </div>
+                        </li>
+
+                    </ol>
+                </section>
+
+                
+            </article>
+
+            <article class="project " data-page="project">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                        <li class="filter-item"><button data-filter-btn>object detection</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                            <li class="select-item"><button data-select-item>object detection</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+
+                        <!-- iklin -->
+                        <li class="project-item active" data-filter-item data-category="web developer">
+                            <a href="#" class="project-link project-card" data-popup="popup-7">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/iklin-lp.png" alt="iklin Landing Page" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">iklin Project</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">PHP</span>
+                                        <span class="project-tag">CMS</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Inventaris -->
+                        <li class="project-item active" data-filter-item data-category="web developer">
+                            <a href="#" class="project-link project-card" data-popup="popup-8">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/inventaris-adm.png" alt="Inventaris Dashboard" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Inventaris Project</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">PHP</span>
+                                        <span class="project-tag">CRUD</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Detection Object -->
+                        <li class="project-item active" data-filter-item data-category="object detection">
+                            <a href="#" class="project-link project-card" data-popup="popup-1">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/object_detection.jpg" alt="Detection Object" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Detection Object</h3>
+                                    <p class="project-category">Deep Learning & Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">SSD</span>
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">Python</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Website RW 23 -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#" class="project-link project-card" data-popup="popup-2">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/rw23_cover_resize.png" alt="Website RW 23" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Website RW 23</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">CMS</span>
+                                        <span class="project-tag">Blog</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Doctor Pointment -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#" class="project-link project-card" data-popup="popup-3">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/klinik_resize.jpg" alt="Doctor Appointment" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Doctor Appointment</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">Midtrans</span>
+                                        <span class="project-tag">API</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Computer Based Test -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#" class="project-link project-card" data-popup="popup-4">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/CBT.jpg" alt="Computer Based Test" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Computer Based Test</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">Laravel</span>
+                                        <span class="project-tag">PHP</span>
+                                        <span class="project-tag">Exam</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Basic Task Management -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#" class="project-link project-card" data-popup="popup-5">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/basic_task_manage.jpg" alt="Basic Task Management" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Basic Task Management</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">JavaScript</span>
+                                        <span class="project-tag">LocalStorage</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Sistem Dokumen Perusahaan -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#" class="project-link project-card" data-popup="popup-6">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="image/lrs_dashboard.jpg" alt="Sistem Dokumen Perusahaan" loading="lazy">
+                                </figure>
+                                <div class="project-info-box">
+                                    <h3 class="project-title">Sistem Dokumen Perusahaan</h3>
+                                    <p class="project-category">Web Development</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">CodeIgniter</span>
+                                        <span class="project-tag">MySQL</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                        <!-- Pop-up Cards -->
+                        <!-- Pop-up 1: Detection Object -->
+                        <div id="popup-1" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/object_detection.jpg" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/deteksi-vidio.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Detection Object</h3>
+                                <p class="popup-desc">
+                                    Proyek ini merupakan implementasi sistem deteksi objek menggunakan model deep learning berbasis Single Shot MultiBox Detector (SSD) yang diintegrasikan dengan framework Laravel. SSD dipilih karena kemampuannya dalam mendeteksi objek secara cepat dan akurat, baik pada gambar maupun video. Dalam proyek ini, Laravel berperan sebagai backend yang mengelola proses unggah data, pemrosesan model SSD, dan menampilkan hasil deteksi melalui antarmuka pengguna yang interaktif. Sistem ini dirancang untuk dapat digunakan dalam berbagai aplikasi, seperti pengawasan keamanan, analisis citra medis, atau manajemen inventaris, dengan kemampuan deteksi objek yang efisien dan skalabel.
+                                </p>
+                                <button class="visit-website" data-nav-link>project-detail</button>
+                                <!-- <a href="#" class="visit-website" onclick="loadProjectDetail('Detection Object', 'Proyek ini adalah...', 'https://deteksi.greendrill.xyz', ['image/object_detection.jpg', 'image/deteksi-vidio.png'])">Detail Proyek</a> -->
+                                <a href="https://deteksi.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a>
+
+                                <!-- <a href="https://deteksi.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a> -->
+                            </div>
+                        </div>
+                    
+                        <!-- Pop-up 2: Website RW 23 -->
+                        <div id="popup-2" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/rw23_cover_resize.png" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/rw23_backsite.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/rw23_berita.png" alt="Gambar 3" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/rw23_cms.png" alt="Gambar 4" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Website RW 23</h3>
+                                <p class="popup-desc">
+                                    Proyek Website RW 23 ini dikembangkan menggunakan framework Laravel dan dilengkapi dengan fitur Content Management System (CMS). Website ini memungkinkan pengelolaan konten dengan mudah, termasuk fitur unggah galeri untuk berbagi foto kegiatan serta sistem manajemen berita yang memudahkan penyampaian informasi kepada warga.
+                                </p>
+                                <button class="visit-website" data-nav-link>project detail rw23</button>
+                                <a href="https://blogrw23.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+                    
+                        <!-- Pop-up 3: Doctor Pointment -->
+                        <div id="popup-3" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/klinik_resize.jpg" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/dokter_pointment.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/dokter_payment.png" alt="Gambar 3" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Doctor Pointment</h3>
+                                <p class="popup-desc">
+                                    Proyek Doctor Pointment dikembangkan menggunakan framework Laravel dan dilengkapi dengan fitur Content Management System (CMS) untuk kemudahan pengelolaan konten. Selain itu, sistem ini terintegrasi dengan Midtrans sebagai solusi pembayaran online, memungkinkan pengguna untuk melakukan transaksi dengan aman dan cepat. Website ini dirancang untuk mempermudah proses janji temu dokter dengan fitur yang efisien dan user-friendly.</p>
+                                    <button class="visit-website" data-nav-link>project detail doctor</button>
+                                <a href="https://klinik.greendrill.xyz/" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+                    
+                        <!-- Pop-up 4: Computer Based Test -->
+                        <div id="popup-4" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/CBT.jpg" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/CBT_question.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/CBT_test.png" alt="Gambar 3" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Computer Based Test</h3>
+                                
+                                <p class="popup-desc">
+                                    Proyek Computer Based Test (CBT) dikembangkan menggunakan framework Laravel untuk menyediakan sistem ujian berbasis komputer yang efisien dan mudah digunakan. Platform ini memungkinkan pembuatan, pengelolaan, dan evaluasi ujian secara digital, sehingga meningkatkan efektivitas dalam proses pembelajaran dan penilaian. Dengan antarmuka yang user-friendly, sistem ini dapat digunakan di berbagai institusi pendidikan dan pelatihan.</p>
+                                <button class="visit-website" data-nav-link>project detail cbt</button>
+                                <a href="https://cbt.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+                    
+                        <!-- Pop-up 5: Basic Task Management -->
+                        <div id="popup-5" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/basic_task_manage.jpg" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        >
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Basic Task Management</h3>
+                                <p class="popup-desc">
+                                    Proyek Basic Task Management dikembangkan menggunakan vanilla JavaScript tanpa framework tambahan. Sistem ini dirancang tanpa database, melainkan memanfaatkan LocalStorage untuk menyimpan dan mengelola data tugas secara lokal di browser. Dengan fitur sederhana namun efektif, pengguna dapat menambahkan, mengedit, dan menghapus tugas tanpa perlu koneksi ke server, menjadikannya solusi ringan dan praktis untuk manajemen tugas sehari-hari.</p>
+
+                                <a href="#" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+                    
+                        <!-- Pop-up 6: Sistem Dokumen Perusahaan -->
+                        <div id="popup-6" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/lrs_dashboard.jpg" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Sistem Dokumen Perusahaan</h3>
+                                <p class="popup-desc">
+                                    Proyek Sistem Dokumen Perusahaan dikembangkan menggunakan CodeIgniter 3 dengan fokus utama pada otomatisasi penomoran surat dan proses persetujuan (approval) surat keluar. Sistem ini memungkinkan pembuatan nomor surat secara otomatis sesuai dengan format yang telah ditentukan, sehingga meningkatkan efisiensi dan konsistensi dalam pengelolaan dokumen. Selain itu, fitur persetujuan surat keluar memastikan bahwa setiap dokumen melewati tahapan verifikasi sebelum didistribusikan, sehingga meningkatkan keamanan dan akurasi dalam administrasi perusahaan.</p>
+                                <button class="visit-website" data-nav-link>project detail lrs</button>
+                                <a href="#" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+
+                        <div id="popup-7" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/iklin-lp.png" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/iklin-lp-product.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/iklin-product.png" alt="Gambar 3" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/iklin-adm-product.png" alt="Gambar 4" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Landing Page Iklin Project</h3>
+                                <p class="popup-desc">
+                                iklin adalah sebuah landing page yang dibuat menggunakan laravel untuk memudahkan pengelolaan produk. Dengan fitur unggulan seperti manajemen produk yang efisien dan antarmuka pengguna yang responsif, iklin dirancang untuk memberikan pengalaman pengguna yang memuaskan dan menjadikannya solusi ideal bagi bisnis yang ingin memperluas jangkauan pasar mereka secara digital.    
+                                </p>
+
+                                <button class="visit-website" data-nav-link>project-detail-iklin</button>
+                                <a href="https://iklin.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+
+                        <div id="popup-8" class="popup">
+                            <div class="popup-content">
+                                <span class="close-popup">&times;</span>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="image/inventaris-adm.png" alt="Gambar 1" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/inventaris-barang.png" alt="Gambar 2" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/inventaris-detail-item.png" alt="Gambar 3" loading="lazy">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="image/inventaris-lok.png" alt="Gambar 4" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <h3>Inventaris Project</h3>
+                                <p class="popup-desc">
+                                Project ini adalah aplikasi web yang dirancang untuk memudahkan pengelolaan inventaris barang. Dengan fitur unggulan seperti manajemen lokasi penyimpanan, pencarian barang yang efisien, dan antarmuka pengguna yang responsif, aplikasi ini bertujuan untuk meningkatkan efisiensi dalam pengelolaan inventaris di berbagai jenis organisasi.
+                                </p>
+                                <button class="visit-website" data-nav-link>project detail inventaris</button>
+                                <a href="https://inventaris.greendrill.xyz" target="_blank" class="visit-website">Kunjungi Website</a>
+                            </div>
+                        </div>
+                </section>
+            </article>
+            
+            <!-- Contact Form -->
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="contact-cta">
+                    <div class="contact-cta-content">
+                        <h3 class="h3">Let's Work Together</h3>
+                        <p class="contact-cta-text">Have a project in mind or want to collaborate? Feel free to reach out — I'd love to hear from you!</p>
+                    </div>
+                </section>
+            
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Send me a Message</h3>
+            
+                    <form class="form" onsubmit="sendToWhatsApp(event)">
+                        <div class="input-wrapper">
+                            <input type="text" id="fullname" class="form-input" placeholder="Full name" required>
+                            <input type="email" id="email" class="form-input" placeholder="Email Address" required>
+                        </div>
+            
+                        <textarea id="message" class="form-input" placeholder="Your Message" required></textarea>
+            
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+
+
+            <!-- Project Detail object detection-->
+            <article class="project-detail" data-page="project-detail">
+                <header>
+                    <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                    <h2 class="h2 article-title">Project Detail</h2>
+                </header>
+                <section class="project-info">
+                    <div class="pd-hero">
+                        <div class="pd-hero-top">
+                            <div>
+                                <h3 class="pd-project-title">Detection Object</h3>
+                                <span class="pd-category-badge">Deep Learning &amp; Web Development</span>
+                            </div>
+                            <a href="https://deteksi.greendrill.xyz" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                        </div>
+                        <p class="pd-desc">Implementasi sistem deteksi objek menggunakan model deep learning berbasis Single Shot MultiBox Detector (SSD) yang diintegrasikan dengan framework Laravel. SSD dipilih karena kemampuannya mendeteksi objek secara cepat dan akurat, baik pada gambar maupun video. Laravel berperan sebagai backend untuk mengelola proses unggah data, pemrosesan model SSD, dan menampilkan hasil deteksi secara interaktif.</p>
+                        <div class="pd-tech-tags">
+                            <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">SSDmobilenet</span><span class="pd-tech-tag">Python</span><span class="pd-tech-tag">COCO Dataset</span>
+                        </div>
+                    </div>
+                    <div class="pd-section">
+                        <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                        <div class="pd-screenshot-grid">
+                            <figure class="pd-screenshot-item"><img src="image/deteksi-vidio.png" alt="Live Camera Detection" loading="lazy"><figcaption>Live Camera Detection</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/object_detection.jpg" alt="Image Detection" loading="lazy"><figcaption>Image Detection</figcaption></figure>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Project Detail iklin-->
+            <article class="project-detail" data-page="project-detail-iklin">
+                <header>
+                    <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                    <h2 class="h2 article-title">Project Detail</h2>
+                </header>
+                <section class="project-info">
+                    <div class="pd-hero">
+                        <div class="pd-hero-top">
+                            <div>
+                                <h3 class="pd-project-title">Landing Page Iklin</h3>
+                                <span class="pd-category-badge">Web Development</span>
+                            </div>
+                            <a href="https://iklin.greendrill.xyz" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                        </div>
+                        <p class="pd-desc">iklin adalah sebuah landing page yang dibuat menggunakan Laravel untuk memudahkan pengelolaan produk. Dengan fitur manajemen produk yang efisien dan antarmuka pengguna yang responsif, iklin dirancang untuk memberikan pengalaman pengguna yang memuaskan dan menjadikannya solusi ideal bagi bisnis yang ingin memperluas jangkauan pasar secara digital.</p>
+                        <div class="pd-tech-tags">
+                            <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">CSS</span><span class="pd-tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="pd-section">
+                        <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                        <div class="pd-screenshot-grid">
+                            <figure class="pd-screenshot-item"><img src="image/iklin-lp.png" alt="Landing Page" loading="lazy"><figcaption>Landing Page</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/iklin-lp-product.png" alt="Product Listing" loading="lazy"><figcaption>Product Listing</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/iklin-product.png" alt="Product Detail" loading="lazy"><figcaption>Product Detail</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/iklin-adm-product.png" alt="Admin Management" loading="lazy"><figcaption>Admin Management</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/iklin-edit-product.png" alt="Admin Edit Product" loading="lazy"><figcaption>Admin Edit Product</figcaption></figure>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            
+            <!-- Project Detail inventaris-->
+            <article class="project-detail" data-page="project detail inventaris">
+                <header>
+                    <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                    <h2 class="h2 article-title">Project Detail</h2>
+                </header>
+                <section class="project-info">
+                    <div class="pd-hero">
+                        <div class="pd-hero-top">
+                            <div>
+                                <h3 class="pd-project-title">Inventaris Project</h3>
+                                <span class="pd-category-badge">Web Development</span>
+                            </div>
+                            <a href="https://inventaris.greendrill.xyz" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                        </div>
+                        <p class="pd-desc">Aplikasi web yang dirancang untuk memudahkan pengelolaan inventaris barang. Dengan fitur manajemen lokasi penyimpanan, pencarian barang yang efisien, dan antarmuka pengguna yang responsif, aplikasi ini meningkatkan efisiensi pengelolaan inventaris di berbagai jenis organisasi.</p>
+                        <div class="pd-tech-tags">
+                            <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">CSS</span><span class="pd-tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="pd-section">
+                        <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                        <div class="pd-screenshot-grid">
+                            <figure class="pd-screenshot-item"><img src="image/inventaris-adm.png" alt="Admin Dashboard" loading="lazy"><figcaption>Admin Dashboard</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/inventaris-barang.png" alt="Item Management" loading="lazy"><figcaption>Item Management</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/inventaris-detail-item.png" alt="Item Details" loading="lazy"><figcaption>Item Details</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/inventaris-lok.png" alt="Location Management" loading="lazy"><figcaption>Location Management</figcaption></figure>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+
+
+            <!-- rw23 -->
+
+            <article class="project-detail" data-page="project detail rw23">
+                <header>
+                    <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                    <h2 class="h2 article-title">Project Detail</h2>
+                </header>
+                <section class="project-info">
+                    <div class="pd-hero">
+                        <div class="pd-hero-top">
+                            <div>
+                                <h3 class="pd-project-title">Website RW 23</h3>
+                                <span class="pd-category-badge">Web Development</span>
+                            </div>
+                            <a href="https://blogrw23.greendrill.xyz" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                        </div>
+                        <p class="pd-desc">Website RW 23 dikembangkan menggunakan framework Laravel dan dilengkapi dengan fitur Content Management System (CMS). Website ini memungkinkan pengelolaan konten dengan mudah, termasuk fitur unggah galeri untuk berbagi foto kegiatan serta sistem manajemen berita yang memudahkan penyampaian informasi kepada warga.</p>
+                        <div class="pd-tech-tags">
+                            <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">CSS</span><span class="pd-tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="pd-section">
+                        <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                        <div class="pd-screenshot-grid">
+                            <figure class="pd-screenshot-item"><img src="image/rw23_cover_resize.png" alt="RW 23 Homepage" loading="lazy"><figcaption>Homepage</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/rw23_backsite.png" alt="RW 23 Admin Dashboard" loading="lazy"><figcaption>Admin Dashboard</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/rw23_berita.png" alt="RW 23 News Section" loading="lazy"><figcaption>News Section</figcaption></figure>
+                            <figure class="pd-screenshot-item"><img src="image/rw23_cms.png" alt="RW 23 CMS Interface" loading="lazy"><figcaption>CMS Interface</figcaption></figure>
+                        </div>
+                    </div>
+                </section>
+            </article>
+       
+
+        <!-- dokter -->
+        <article class="project-detail" data-page="project detail doctor">
+            <header>
+                <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                <h2 class="h2 article-title">Project Detail</h2>
+            </header>
+            <section class="project-info">
+                <div class="pd-hero">
+                    <div class="pd-hero-top">
+                        <div>
+                            <h3 class="pd-project-title">Doctor Appointment</h3>
+                            <span class="pd-category-badge">Web Development</span>
+                        </div>
+                        <a href="https://klinik.greendrill.xyz/" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                    </div>
+                    <p class="pd-desc">Doctor Appointment dikembangkan menggunakan Laravel dengan fitur CMS untuk kemudahan pengelolaan konten dan terintegrasi dengan Midtrans sebagai solusi pembayaran online. Website ini mempermudah proses janji temu dokter dengan antarmuka yang efisien dan user-friendly.</p>
+                    <div class="pd-tech-tags">
+                        <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">Midtrans API</span><span class="pd-tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="pd-section">
+                    <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                    <div class="pd-screenshot-grid">
+                        <figure class="pd-screenshot-item"><img src="image/klinik_resize.jpg" alt="Homepage" loading="lazy"><figcaption>Homepage</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/dokter_pointment.png" alt="Appointment System" loading="lazy"><figcaption>Appointment System</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/dokter_payment.png" alt="Payment Integration" loading="lazy"><figcaption>Payment Integration</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/klinik_appointment_dashboard.png" alt="Admin Dashboard" loading="lazy"><figcaption>Admin Dashboard</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/klinik_user_management.png" alt="User Management" loading="lazy"><figcaption>User Management</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/klinik_role_management.png" alt="Role Management" loading="lazy"><figcaption>Role Management</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/klinik_Transaction_dashboard.png" alt="Transaction Dashboard" loading="lazy"><figcaption>Transaction Dashboard</figcaption></figure>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- cbt detail -->
+        <article class="project-detail" data-page="project detail cbt">
+            <header>
+                <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                <h2 class="h2 article-title">Project Detail</h2>
+            </header>
+            <section class="project-info">
+                <div class="pd-hero">
+                    <div class="pd-hero-top">
+                        <div>
+                            <h3 class="pd-project-title">Computer Based Test</h3>
+                            <span class="pd-category-badge">Web Development</span>
+                        </div>
+                        <a href="https://cbt.greendrill.xyz" target="_blank" class="pd-visit-btn"><ion-icon name="globe-outline"></ion-icon> Live Demo</a>
+                    </div>
+                    <p class="pd-desc">Sistem ujian berbasis komputer yang dikembangkan dengan Laravel, memungkinkan pembuatan, pengelolaan, dan evaluasi ujian secara digital. Dengan antarmuka yang user-friendly, sistem ini dapat digunakan di berbagai institusi pendidikan dan pelatihan.</p>
+                    <div class="pd-tech-tags">
+                        <span class="pd-tech-tag">Laravel</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">CSS</span><span class="pd-tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="pd-section">
+                    <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                    <div class="pd-screenshot-grid">
+                        <figure class="pd-screenshot-item"><img src="image/CBT.jpg" alt="CBT Dashboard" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/CBT_question.png" alt="Question Management" loading="lazy"><figcaption>Question Management</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/CBT_test.png" alt="Test Interface" loading="lazy"><figcaption>Test Interface</figcaption></figure>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+
+        <!-- sdp -->
+
+        <!-- sdp -->\n        <article class="project-detail" data-page="project detail lrs">
+            <header>
+                <div class="pd-nav"><button class="pd-back-btn" data-nav-link>project</button></div>
+                <h2 class="h2 article-title">Project Detail</h2>
+            </header>
+            <section class="project-info">
+                <div class="pd-hero">
+                    <div class="pd-hero-top">
+                        <div>
+                            <h3 class="pd-project-title">Sistem Dokumen Perusahaan</h3>
+                            <span class="pd-category-badge">Web Development</span>
+                        </div>
+                        <span class="pd-visit-btn pd-no-link"><ion-icon name="lock-closed-outline"></ion-icon> Private</span>
+                    </div>
+                    <p class="pd-desc">Sistem Dokumen Perusahaan dikembangkan menggunakan CodeIgniter 3 dengan fokus pada otomatisasi penomoran surat dan proses persetujuan surat keluar. Sistem memungkinkan pembuatan nomor surat otomatis sesuai format yang ditentukan, serta fitur verifikasi sebelum distribusi untuk meningkatkan keamanan dan akurasi administrasi.</p>
+                    <div class="pd-tech-tags">
+                        <span class="pd-tech-tag">CodeIgniter 3</span><span class="pd-tech-tag">PHP</span><span class="pd-tech-tag">JavaScript</span><span class="pd-tech-tag">CSS</span><span class="pd-tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="pd-section">
+                    <h4 class="pd-section-title"><ion-icon name="images-outline"></ion-icon> Screenshots</h4>
+                    <div class="pd-screenshot-grid">
+                        <figure class="pd-screenshot-item"><img src="image/lrs_dashboard.jpg" alt="Dashboard" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_surat_masuk.png" alt="Surat Masuk" loading="lazy"><figcaption>Surat Masuk</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_data_surat_masuk.png" alt="Data Surat Masuk" loading="lazy"><figcaption>Data Surat Masuk</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_surat_keluar.png" alt="Surat Keluar" loading="lazy"><figcaption>Surat Keluar</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_surat_keluar_backdate.png" alt="Surat Keluar Backdate" loading="lazy"><figcaption>Surat Keluar Backdate</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_data_surat_keluar.png" alt="Data Surat Keluar" loading="lazy"><figcaption>Data Surat Keluar</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_print.png" alt="Cetak Surat" loading="lazy"><figcaption>Cetak Surat</figcaption></figure>
+                        <figure class="pd-screenshot-item"><img src="image/sdp_print_laporn.png" alt="Cetak Laporan" loading="lazy"><figcaption>Cetak Laporan</figcaption></figure>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
